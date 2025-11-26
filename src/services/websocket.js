@@ -13,7 +13,7 @@ class WebSocketService {
     this.onConnect = onConnect;
     this.onDisconnect = onDisconnect;
 
-    const wsUrl = `${process.env.REACT_APP_WS_URL || 'ws://localhost:8000'}/ws/${roomId}`;
+    const wsUrl = `${process.env.REACT_APP_WS_URL || 'ws://localhost:8000'}/api/v1/ws/${roomId}`;
     this.ws = new WebSocket(wsUrl);
 
     this.ws.onopen = () => {
