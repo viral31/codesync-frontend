@@ -133,14 +133,6 @@ npm run build
 # Deploy the build/ folder to your hosting service
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## Browser Support
 
 - Chrome (recommended)
@@ -148,9 +140,6 @@ npm run build
 - Safari
 - Edge
 
-## License
-
-This project is licensed under the MIT License.
 
 ## Acknowledgments
 
